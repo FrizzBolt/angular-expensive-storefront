@@ -53,8 +53,8 @@
     reviews: [
     {
       stars: 5,
-      body: "Viracocha is pleased. Came with batteries as expected.",
-      author: "viracocha@notyourpichu.com"
+      body: "Came with batteries as expected.",
+      author: "viracocha@nachopichu.com"
     }
     ]
   },
