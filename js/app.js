@@ -1,7 +1,7 @@
 (function(){
-  var app = angular.module('store', [ ]);
-  app.controler('StoreController', function(){
-    this.product = items;
+  var app = angular.module('store', []);
+  app.controller('StoreController', function(){
+    this.products = items;
   });
 
   var items = [
@@ -20,11 +20,11 @@
   {
     name: 'The Former Incan Empire',
     price: 179999999.99,
-    description: "Enjoy a Tawantinsuyu of your own in the style of Pedro Cieza de León. Rule over this fabulous stretch of land Between Quillota and the Bio Bio River. <i>They</i> will worship you. They will always worship you.",
+    description: "Enjoy a Tawantinsuyu of your own in the style of Pedro Cieza de León. Rule over this fabulous stretch of land Between Quillota and the Bio Bio River. <i>They</i> will worship you. <i>They</i> will always worship you.",
     images: []
   },
   {
-    name: "A Date With Josh",
+    name: "Josh's Love",
     price: 899.99,
     description: "There are some things money can't buy. This is not one of those things.",
     images: []
