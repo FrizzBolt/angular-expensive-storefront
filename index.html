@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html ng-app="store">
+<html ng-app="store" style="background-image: url('images/background.jpg'); background-repeat: no-repeat; background-attachment: fixed;">
   <head>
     <meta charset="utf-8">
 
-    <title>Beautiful, Meaningful Things</title>
+    <title>Jevon's Luxury Boutique</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet' type='text/css'>
 
     <!-- JQUERY CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -25,12 +27,12 @@
   </head>
   <body class="container" class="list-group" ng-controller="StoreController as store">
 
-
+    <h1 style="font-family: 'Allura', cursive; text-align: center; font-size: 5em;">Jevon's Luxury Boutique</h1>
     <!-- APPLICATION FILE -->
     <script src="js/app.js"></script>
     <div class="list-group-item" ng-repeat="product in store.products">
       <h3>{{product.name}} <em class="pull-right">{{product.price | currency}}</em></h3>
-
+      <em class="pull-right"><button type="button" class="btn btn-success">Add to Cart</button></em>
       <!-- Image Gallery  -->
       <div class="gallery">
         <div class="img-wrap">
